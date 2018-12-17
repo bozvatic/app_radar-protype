@@ -29,5 +29,6 @@
             {{ $styles := slice $themeStyle | resources.Concat "/css/style.css" }}
             <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
         {{- end }}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
     </head>
     <body>

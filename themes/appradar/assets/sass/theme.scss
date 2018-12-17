@@ -1,4 +1,55 @@
 // testing overwrite from base
 html {
     color: black;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";    
 }
+.header {
+    height: 95vh;
+    background-image: linear-gradient(251deg, #f3f5f9, #e4e8f0);    
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+.navbar {
+    margin-bottom: 3rem;
+}
+.top-text {
+    margin-bottom: 4rem;
+}
+.top-text__headline {
+    padding-bottom: 2rem;
+}
+.company {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.company__logo {
+    flex: 0 0 auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.searchbar {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card-body {
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    box-shadow: 0 3px 6px 0 rgba(0,30,107,.1), 0 10px 20px 0 rgba(0,0,0,.1);
+}
+.optimization-tool2 {
+    margin-bottom: 2rem;
+}
+
