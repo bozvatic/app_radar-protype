@@ -1,0 +1,25 @@
+version: '3.3'
+
+services:
+  hugo:
+    build:
+      context: ./
+    entrypoint: hugo --config ./config-release.toml
+    volumes:
+      - .:/src
+
+  server:
+    build:
+      context: ./
+    command: hugo server --noHTTPCache --disableFastRender --bind 0.0.0.0
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/src
+
+  new:
+    build:
+      context: ./
+    entrypoint: hugo new site . --force
+    volumes:
+      - .:/src

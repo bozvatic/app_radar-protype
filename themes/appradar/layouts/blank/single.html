@@ -1,0 +1,14 @@
+using blank: single.html
+
+{{ partial "head.html" . }}
+
+<!-- partial "nav.html" -->
+<header class="header-section">
+  <div class="intro intro--empty"></div>
+</header>
+
+<div role="main" class="container">
+  {{ with .Content }}{{.}}{{ end }}
+</div>
+
+{{ partial "footer.html" . }}

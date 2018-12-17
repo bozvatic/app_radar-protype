@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+      {{- with .Params.noindex }}
+        <meta name="robots" content="noindex, follow">
+      {{ end -}}
+      {{- with .Params.nofollow }}
+        <meta name="robots" content="noindex, nofollow">
+      {{ end -}}
+
+      <!-- Site Title, Description, Author, and Favicon -->
+      {{- with .Params.headline | default .Title | default .Site.Title }}
+        <title>{{ . | markdownify }}</title>
+        <meta property="og:title" content="{{ . | markdownify }}" />
+        <meta name="twitter:title" content="{{ . | markdownify | truncate 70 }}" />
+      {{- end }}
+      {{- with .Params.description | default .Summary }}
+        <meta name="description" content="{{ . | markdownify }}">
+        <meta property="og:description" content="{{ . | markdownify }}">
+        <meta name="twitter:description" content="{{ . | markdownify | truncate 200 }}">
+      {{- end }}
+
+        {{ if fileExists "/themes/appradar" -}}
+            {{ $themeStyle := resources.Get "sass/theme.scss" | toCSS }}
+
+            {{ $styles := slice $themeStyle | resources.Concat "/css/style.css" }}
+            <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+        {{- end }}
+    </head>
+    <body>
