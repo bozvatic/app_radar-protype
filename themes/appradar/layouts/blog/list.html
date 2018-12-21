@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+
+{{ partial "nav.html" . }}
+
+
+{{ range .Pages}}
+    <a href="{{ .URL }}">Link</a>
+{{ end }}
+
+
+<div role="main" class="wrapper">
+  {{ with .Content }}
+    {{.}}
+  {{ end }}
+</div>
+
+{{ partial "footer.html" . }}

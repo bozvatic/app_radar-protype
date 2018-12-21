@@ -15,7 +15,7 @@ preserveTaxonomyNames = true
     [Languages.en]
     weight = 1
     languageCode = "en-us"
-    title = "ENGLISH Example site multi-language"
+    title = "FALLBACK english title multi-language"
     dateFormat = "January 2, 2006"
 
     [Languages.de]
