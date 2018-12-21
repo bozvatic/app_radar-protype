@@ -6,7 +6,7 @@
 
 .panel__inner {
     text-align: center;
-    padding: 30px 30px;
+    padding: 50px 30px;
 }
 
 .panel__content {
@@ -15,9 +15,28 @@
 }
 
 .panel__headline {
-
+    font-size: 32px;
+    font-weight: 700;
+    color: #13192c;
+    margin-bottom: 1.5rem;
 }
 
 .panel__subheadline {
-    
+    font-size: 20px;
+    font-weight: 500;
+    color: #5d657c;
+    margin-bottom: 36px;
 }
+
+
+@media only screen and (min-width: 1200px) {
+    .panel__content--reverse 
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .panel__content-item1, .panel__content-item2, .panel__content-item3 {
+            margin-right: 1rem;
+        }
+  }

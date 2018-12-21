@@ -4,10 +4,10 @@
     height: 90vh;
     border-bottom-left-radius: 40% 5%;
     border-bottom-right-radius: 40% 5%;
-    background: url(/images/bg-hero.svg);
-    background-repeat: no-repeat;
+    background: url(/images/bg-hero.svg), url(/images/hero-illustration@2x.png);
+    background-repeat: no-repeat no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: right bottom, left top;
 }
 
 .hero__inner {

@@ -1,0 +1,39 @@
+.checklist {
+    
+}
+
+.checklist__headline {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.checklist__content {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.checklist__content li {
+    text-indent: -41px;
+    padding-left: 41px;
+    font-size: 16px;
+    color: #262e48;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.checklist__content li:before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    margin-right: 12px;
+    background-image: url(/logos/check@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+}

@@ -1,0 +1,41 @@
+.card {
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(0,30,107,.1), 0 10px 20px 0 rgba(0,0,0,.1);
+    background-color: #fff;
+}
+
+.card__header {
+    overflow: hidden;
+}
+
+.card__image {
+    max-width: 100%;
+    padding-bottom: 1.5rem;
+}
+
+.card__content {
+    line-height: 1.5rem;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.card__headline {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 18px;
+}
+
+.card__text {
+    font-size: 16px;
+    color: #262e48;
+    margin-bottom: 24px;
+    letter-spacing: .2px;
+}
+
+.card__footer {
+    border-top: 1px solid #f3f5f9;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
