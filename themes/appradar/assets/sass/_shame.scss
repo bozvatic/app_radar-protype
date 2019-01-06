@@ -1,0 +1,273 @@
+// Image computer
+
+.laptop-image {
+  max-width: 100%;
+  padding-bottom: 1.5rem;
+}
+
+// Footer
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 32px;
+}
+
+.page-footer__additional {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.page-footer__copyright {
+  font-size: 14px;
+  color: #b6b9bc;
+}
+
+.socialicon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.socialicon--facebook {
+  background-color: #3b5998;
+  background-image: url(/logos/facebook.svg);
+}
+
+.socialicon--twitter {
+  background-color: #1da1f2;
+  background-image: url(/logos/twitter.svg);
+}
+
+.socialicon--linkedin {
+  background-color: #007ab9;
+  background-image: url(/logos/linkedin.svg);
+  background-size: 40% 40%;
+}
+
+.socialicon--instagram {
+  background-image: url(/logos/instagram.svg),
+    linear-gradient(-134deg, #5442d2 0, #d7246c 49%, #f9c255 100%);
+  background-size: 40% 40%, cover;
+}
+
+.footer-main,
+.list > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -16px 0 0 -16px;
+  padding: 0;
+}
+
+.products,
+.features,
+.company {
+  flex: 0 0 100%;
+  margin-bottom: 1.5rem;
+}
+
+.products__headline {
+  color: #303336;
+  margin-bottom: 16px;
+}
+
+.footernav {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footernav__link {
+  font-size: inherit;
+  color: #303336;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.footernav-divider {
+  display: block;
+  width: 50%;
+  border-bottom: 1px solid #e6e9ec;
+  margin-bottom: 12px;
+}
+
+a {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+// Navbar hamburger icon
+
+.navbar {
+  background-color: transparent;
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+  .navbar__main {
+    margin-left: auto;
+  }
+  .bar {
+    width: 35px;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 4px;
+  }
+  .bar:nth-child(3) {
+    margin-bottom: 0;
+  }
+}
+
+.hamburger {
+  border: none;
+  background: transparent;
+  margin: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+// Navigation
+
+.navigation {
+  display: none;
+}
+
+.learn-more {
+  display: none;
+}
+
+@media only screen and (min-width: 800px) {
+  .footer-main {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .panel__inner.laptop {
+    display: flex;
+  }
+  .imgwrap,
+  .textwrap {
+    flex: 1;
+  }
+  .textwrap {
+    padding-left: 1rem;
+  }
+  .products {
+    flex: 0 0 25%;
+  }
+  .features {
+    flex: 0 0 25%;
+  }
+  .company {
+    flex: 0 0 25%;
+  }
+  .compare {
+    flex: 0 0 25%;
+  }
+  .footer-main {
+    grid-area: first-row;
+  }
+  .page-footer__additional {
+    grid-area: second-row;
+  }
+  .page-footer {
+    display: grid;
+    grid-template-areas:
+      'first-row'
+      'second-row';
+  }
+  .hamburger {
+    display: none;
+  }
+  .navigation {
+    display: block;
+  }
+  .navigation__list {
+    display: flex;
+    margin: 0;
+  }
+  .navigation__list li {
+    list-style: none;
+    padding-right: 2rem;
+  }
+  .hero__headline {
+    font-size: 1.8rem;
+  }
+  .hero__subheadline {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .bgwrap {
+    pointer-events: none;
+    background-size: 30%, cover;
+    border-bottom-left-radius: 70% 30%;
+    border-bottom-right-radius: 70% 30%;
+    background-position: left -20% bottom 10%, bottom center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -55px;
+    background-repeat: no-repeat;
+    background-image: url(/images/hero-illustration@2x.png);
+  }
+  .bgwrap2 {
+    pointer-events: none;
+    opacity: 1;
+    background-size: 30%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -70px;
+    background-repeat: no-repeat;
+    background-position: right -10% bottom;
+    background-image: url(/images/hero-illustration@2x.png);
+  }
+
+  .hero {
+    border-bottom-left-radius: 70% 30%;
+    border-bottom-right-radius: 70% 30%;
+  }
+
+  .learn-more {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+  }
+  .learn-more a {
+    color: #5d657c;
+  }
+
+  .icon-dropdown:before {
+    content: '\22C1';
+  }
+
+  [class*=' icon-'],
+  [class^='icon-'] {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero__headline {
+    font-size: 2.2rem;
+  }
+  .hero__subheadline {
+    font-size: 1.5rem;
+  }
+}

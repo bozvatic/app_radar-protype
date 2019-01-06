@@ -1,0 +1,33 @@
+languageCode = "en-us"
+defaultContentLanguageInSubdir = false
+DefaultContentLanguage = "en"
+
+baseurl = "/"
+title = "Some theme title"
+theme = ["appradar"]
+
+disableHugoGeneratorInject = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+buildDrafts = true
+preserveTaxonomyNames = true
+
+[Languages]
+    [Languages.en]
+    weight = 1
+    languageCode = "en-us"
+    title = "FALLBACK english title multi-language"
+    dateFormat = "January 2, 2006"
+
+    [Languages.de]
+    weight = 1
+    languageCode = "de-de"
+    title = "GERMAN Example site multi-language"
+    dateFormat = "2 January, 2006"
+
+[Params]
+  debug = true
+
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
