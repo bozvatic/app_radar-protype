@@ -4,7 +4,16 @@
 
 <div role="main" class="wrapper">
     <div class="post-content">
-        {{ with.Content }} {{.}} {{ end }}
+        <div class="post-header">
+            <h1>{{.Params.title}}</h1>
+            <span class="date">
+                {{ default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format }}
+            </span>
+        </div>
+
+        {{ with.Content }} 
+        {{.}} 
+        {{ end }}
     </div>
 </div>
 

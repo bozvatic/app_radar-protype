@@ -1,14 +1,12 @@
 ---
 title: 'Paid vs. Organic Mobile User Acquisition – A comparison'
 description: 'Blog post 3'
-content: 'iOS 12 has arrived and it’s time to get to know it. What changed? How can help your app or game’s success?'
-date: 'November 20, 2018'
+summary: 'iOS 12 has arrived and it’s time to get to know it. What changed? How can help your app or game’s success?'
+date: 2018-11-20
 menu: 'main'
 author: 'Elisa'
 image: '/images/feature_image.jpg'
 ---
-
-# Paid vs. Organic Mobile User Acquisition <br> – A comparison
 
 You developed an awesome mobile app or game; you are proud of the final product. Then comes the hard part: how to acquire users for your app?
 

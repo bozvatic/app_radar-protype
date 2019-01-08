@@ -1,14 +1,12 @@
 ---
 title: 'iOS 12: What does it mean for App Developers'
 description: 'Blog post 2'
-content: 'How does user acquisition for mobile apps and games work? We cover two most common ways of growing your user base: organic and paid user acquisition, and give you an overview and inspiring tips on how to attract more users.'
-date: 'September 19, 2018'
+summary: 'How does user acquisition for mobile apps and games work? We cover two most common ways of growing your user base: organic and paid user acquisition, and give you an overview and inspiring tips on how to attract more users.'
+date: 2018-09-18
 menu: 'main'
 author: 'Elisa'
-image: '/images/feature_image.jpg'
+image: '/images/blog3.jpg'
 ---
-
-# Paid vs. Organic Mobile User Acquisition <br> – A comparison
 
 You developed an awesome mobile app or game; you are proud of the final product. Then comes the hard part: how to acquire users for your app?
 

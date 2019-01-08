@@ -26,6 +26,7 @@ preserveTaxonomyNames = true
 
 [Params]
   debug = true
+  dateFormat = "Jan. 2, 2006"
 
 
 [blackfriday]
