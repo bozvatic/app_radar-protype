@@ -1,8 +1,8 @@
 ---
-title: 'iOS 12: What does it mean for App Developers'
-description: 'Blog post 2'
-content: 'How does user acquisition for mobile apps and games work? We cover two most common ways of growing your user base: organic and paid user acquisition, and give you an overview and inspiring tips on how to attract more users.'
-date: 'September 19, 2018'
+title: 'Paid vs. Organic Mobile User Acquisition – A comparison'
+description: 'Blog post 3'
+content: 'iOS 12 has arrived and it’s time to get to know it. What changed? How can help your app or game’s success?'
+date: 'November 20, 2018'
 menu: 'main'
 author: 'Elisa'
 image: '/images/feature_image.jpg'
@@ -14,7 +14,7 @@ You developed an awesome mobile app or game; you are proud of the final product.
 
 User acquisition is one of the most challenging parts of having an app. Consider yourself lucky, because we are here to give you an overview and inspiring tips to boost your mobile user acquisition. Let’s start talking about the two ways of growing your user base: organic and paid user acquisition strategy. We are pretty sure you have heard about them. The point is to understand what precisely each one of these methods is, and which one is the right option for your app marketing efforts. Stay focused and join us on this journey:
 
-The Topics we cover
+The Topics we cover:
 
 What is Paid User Acquisition?
 User Acquisition with Video Ads
@@ -51,7 +51,4 @@ Instagram Ads This is definitely one of the most popular social media channels a
 Twitter Ads The best way to promote yourself on Twitter is by using a media card. It can be an image or even a gif. You can optimize your campaigns just like on Facebook, based on your goal. Twitter gives you the possibility of targeting followers of specific pages and also interests. Just remember that Twitter is a fast-paced social media, so prioritize brevity on your ad. On this platform, you have to specify a daily budget.
 
 Snapchat Ads Even though many believed that Snapchat would succumb to Instagram Stories, it didn’t happen. It’s a social media really focused on young people, but the prices aren’t as a good as they are on other platforms. So, it’s a must to research your target audience before going for it. In case you choose Snapchat, remember that your ad should be a video. To run a one-month ad, you would need a budget of around \$1.000,00.
-
-{{% youtube PkZNo7MFNFg %}}
-
 

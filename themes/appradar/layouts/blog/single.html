@@ -1,7 +1,11 @@
 {{ partial "head.html" . }}
 
-<!--{{ partial "nav.html" . }}-->
+{{ partial "nav.html" . }}
 
-<div role="main" class="wrapper">{{ with.Content }}{{.}}{{ end }}</div>
+<div role="main" class="wrapper">
+    <div class="post-content">
+        {{ with.Content }} {{.}} {{ end }}
+    </div>
+</div>
 
-<!--{{ partial "footer.html" . }}-->
+{{ partial "footer.html" . }}

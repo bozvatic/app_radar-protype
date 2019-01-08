@@ -2,8 +2,29 @@
 
 {{ partial "nav.html" . }}
 
-<div role="main" class="wrapper">{{ with.Content }} {{.}} {{ end }}</div>
-
-{{ range.Pages }} <a href="{{ .URL }}">Link</a> {{ end }}
-
+<div role="main" class="blog-wrapper">{{ with.Content }} {{.}} {{ end }}
+        <div class="blog-cards">
+                {{ range.Pages }}
+                    <a href="{{ .URL }}" class="blog-card">
+                        <div class="blog-card__header">
+                            {{ with .Params.image }}<img src="{{ . }}" id="blog-image"/>{{ end }}
+                            <!-- <img src="/images/feature_image.jpg" alt="office" id="blog-image" /> -->
+                        </div>
+                        <div class="blog-card__content">
+                            <p class="post-title">{{ .Title }}</p>
+                            <div class="post-meta">
+                                <span class="author">{{ .Params.author }}</span>
+                                <span class="date">{{ .Params.date }}</span>
+                            </div>
+                                <p>
+                                  {{ .Params.content }}
+                                </p>
+                        </div>
+                        <div class="blog-card__footer">
+                            <button class="button__read">Read more</button>
+                        </div>               
+                    </a>
+                 {{ end }}
+        </div>
+</div>
 {{ partial "footer.html" . }}
