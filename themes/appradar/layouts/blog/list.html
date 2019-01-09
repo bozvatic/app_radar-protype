@@ -4,12 +4,12 @@
 
 <div role="main" class="blog-wrapper">{{ with.Content }} {{.}} {{ end }}
         <div class="blog-cards">
-                {{ range.Pages }}
-                    <a href="{{ .URL }}" class="blog-card">
+                {{ range  $index, $page := .Pages }}
+                    <a href="{{ .URL }}" class="blog-card {{- if eq $index 3 }} featured reverse {{ end -}}">
                         <div class="blog-card__header">
                             {{ with .Params.image }}<img src="{{ . }}" id="blog-image"/>{{ end }}
-                            <!-- <img src="/images/feature_image.jpg" alt="office" id="blog-image" /> -->
                         </div>
+                        <div class="content-wrap">
                         <div class="blog-card__content">
                             <p class="post-title">{{ .Title }}</p>
                             <div class="post-meta">
@@ -24,45 +24,11 @@
                         </div>
                         <div class="blog-card__footer">
                             <button class="button__read">Read more</button>
-                        </div>               
-                    </a>
-                 {{ end }}
-        </div>
-        <div class="blog4">
-              <a href="" class="blog4-link">
-              <span class="blog4-image">
-                 <img src="/images/girl.jpg" alt="" class="girl">
-              </span>
-              <span class="blog4-content">
-                  <h2>text</h2>
-                  <p>text</p>
-              </span>
-              </a>
-        </div>
-        <div class="blog-cards">
-                {{ range.Pages }}
-                    <a href="{{ .URL }}" class="blog-card">
-                        <div class="blog-card__header">
-                            {{ with .Params.image }}<img src="{{ . }}" id="blog-image"/>{{ end }}
-                            <!-- <img src="/images/feature_image.jpg" alt="office" id="blog-image" /> -->
                         </div>
-                        <div class="blog-card__content">
-                            <p class="post-title">{{ .Title }}</p>
-                            <div class="post-meta">
-                                <span class="author">{{ .Params.author }}</span>
-                                <span class="date">
-                                    {{ default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format }}
-                                </span>
-                            </div>
-                                <p>
-                                  {{ .Params.summary }}
-                                </p>
-                        </div>
-                        <div class="blog-card__footer">
-                            <button class="button__read">Read more</button>
-                        </div>               
+                    </div>
                     </a>
                  {{ end }}
         </div>
 </div>
+
 {{ partial "footer.html" . }}

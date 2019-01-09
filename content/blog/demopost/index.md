@@ -13,7 +13,7 @@ image: '/images/office.png'
 
 Seeing that Christmas is the most consumption-intensive time of the year, you definitely should ensure that your app is ranked well in app stores. That way consumers can easily find your app as they are searching for that fun game or new media sharing app while cozying up fireside with their friends and family.
 
-{{% text-center %}}## 1. Add Seasonal Keywords{{% /text-center %}}
+## 1. Add Seasonal Keywords
 
 During this time of the year, people search for holiday-related keywords (seasonal keywords). Depending on what app you have, you can take an advantage of that and them in your listing. If you are still rather new to the app stores, don’t go for highly popular keywords like “Christmas gifts” straight away. Rather focus on keywords with less competition and lower difficulty score – you are far more likely to rank for those. Online tools like App Radar can provide such insights and help you with your choice.
 

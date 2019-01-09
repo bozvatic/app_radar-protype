@@ -10,7 +10,6 @@
                 {{ default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format }}
             </span>
         </div>
-
         {{ with.Content }} 
         {{.}} 
         {{ end }}

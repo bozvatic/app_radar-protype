@@ -1,8 +1,8 @@
 ---
-title: '3 Growth Strategies Game Developers Need to Know'
+title: 'How Kolibri Games Increased Downloads While Cutting Time Needed On ASO Updates'
 description: 'Blog post 3'
 summary: 'iOS 12 has arrived and it’s time to get to know it. What changed? How can help your app or game’s success?'
-date: 2018-08-10
+date: 2018-07-30
 menu: 'main'
 author: 'Silke'
 image: '/images/feature_image.jpg'

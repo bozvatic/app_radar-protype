@@ -1,8 +1,8 @@
 ---
-title: '3 Growth Strategies Game Developers Need to Know'
+title: 'How to Establish a Winning Keyword Strategy With App Radar'
 description: 'Blog post 3'
 summary: 'iOS 12 has arrived and it’s time to get to know it. What changed? How can help your app or game’s success?'
-date: 2018-08-10
+date: 2018-08-01
 menu: 'main'
 author: 'Silke'
 image: '/images/feature_image.jpg'
