@@ -132,8 +132,8 @@
 }
 
 .post-content {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
@@ -164,6 +164,12 @@
 }
 .featured {
   flex: 0 0 100%;
+}
+
+img[alt=social-media-image], img[alt=mobile-phone-image], img[alt=ios-image], img[alt=arkit] {
+  margin-bottom: 2rem;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -208,5 +214,12 @@
   .pinky {
     text-align: left;
   }
+
+  img[alt=social-media-image], img[alt=mobile-phone-image], img[alt=ios-image], img[alt=arkit] {
+    margin-bottom: 2rem;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
 }
 

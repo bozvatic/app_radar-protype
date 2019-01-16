@@ -25,6 +25,8 @@ User Acquisition with Content Marketing
 User Acquisition with Social Media
 User Acquisition for Apps: Organic, Paid or Both?
 
+
+
 ## What is Paid User Acquisition?
 
 To simplify the process in one sentence, we can say that paid user acquisition covers the actions of promoting your app with money.
