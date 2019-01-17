@@ -1,0 +1,5 @@
+{{- $color := .Get "color" | default "text"}}
+
+<div class="color-{{ $color }}">
+        {{ .Inner }}
+</div>

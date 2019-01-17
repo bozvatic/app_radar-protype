@@ -12,7 +12,7 @@ You developed an awesome mobile app or game; you are proud of the final product.
 
 User acquisition is one of the most challenging parts of having an app. Consider yourself lucky, because we are here to give you an overview and inspiring tips to boost your mobile user acquisition. Let’s start talking about the two ways of growing your user base: organic and paid user acquisition strategy. We are pretty sure you have heard about them. The point is to understand what precisely each one of these methods is, and which one is the right option for your app marketing efforts. Stay focused and join us on this journey:
 
-The Topics we cover:
+#### The Topics we cover:
 
 - What is Paid User Acquisition?
 - User Acquisition with Video Ads
@@ -38,7 +38,10 @@ Your video can show up on Facebook, Instagram, Twitter, and YouTube. The short a
 
 ![mobile-phone-image](mobile-phone.jpg)
 
-{{< figure src="calculating.jpg" title="Calculating my traffic" >}}
+{{< figure src="calculating.jpg" title="Calculating my traffic" alt="alt text" >}}
+
+![calculating-image](calculating.jpg)
+
 
 
 ## User Acquisition with Social Media Advertising

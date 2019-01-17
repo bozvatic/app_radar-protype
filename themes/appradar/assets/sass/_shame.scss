@@ -13,6 +13,10 @@
   margin-left: auto;
   margin-right: auto;
   padding: 40px 32px;
+
+  a {
+    text-decoration: none;
+  }  
 }
 
 .page-footer__additional {
@@ -96,12 +100,6 @@
   width: 50%;
   border-bottom: 1px solid #e6e9ec;
   margin-bottom: 12px;
-}
-
-a {
-  cursor: pointer;
-  color: black;
-  text-decoration: none;
 }
 
 // Navbar hamburger icon
@@ -280,4 +278,17 @@ a {
 }
 .text-right {
   text-align: right;
+}
+
+.color-primary {
+  color: #0080ff;
+}
+.color-accent {
+  color: #ff0062;
+}
+.color-text {
+  color: #798087;  
+}
+.color-textdark {
+  color: #000000;
 }

@@ -26,17 +26,20 @@ User Acquisition with Social Media
 User Acquisition for Apps: Organic, Paid or Both?
 
 
-
 ## What is Paid User Acquisition?
 
 To simplify the process in one sentence, we can say that paid user acquisition covers the actions of promoting your app with money.
 This is definitely a fast way to acquire new users because it takes them directly to your app page. Besides that, you can target the audience that you want to reach. You choose the time frame and placement where you want your ads to appear so that you can reach the right audience. However, not every app or mobile game developer has a lot of money to spend on app marketing. We also know that spending money doesn’t guarantee that you are going to get where you want. That’s why we collected some ideas, so you can find out which paid marketing method is best for your product.
+
+![fun-image](fun-run.jpg)
 
 ## User Acquisition with Video Ads
 
 Internet users are video lovers, this is no secret. Over 8 billion videos are watched on Facebook every day. Thus, we are talking about an investment that brings you at least some return. Apart from that, the video is the perfect way to show how your app or game works. It’s a cool way to show its dynamics, graphics, and usefulness. Remember to make your videos short, visually attractive and to use subtitles.
 
 Your video can show up on Facebook, Instagram, Twitter, and YouTube. The short ads that appear on YouTube before a video is a cheap resource, and also pretty effective since you can decide what type of channels you want to show them and also how much you are willing to pay for each video placement.
+
+![image5](image5.gif)
 
 ## User Acquisition with Social Media Advertising
 
@@ -51,4 +54,6 @@ Instagram Ads This is definitely one of the most popular social media channels a
 Twitter Ads The best way to promote yourself on Twitter is by using a media card. It can be an image or even a gif. You can optimize your campaigns just like on Facebook, based on your goal. Twitter gives you the possibility of targeting followers of specific pages and also interests. Just remember that Twitter is a fast-paced social media, so prioritize brevity on your ad. On this platform, you have to specify a daily budget.
 
 Snapchat Ads Even though many believed that Snapchat would succumb to Instagram Stories, it didn’t happen. It’s a social media really focused on young people, but the prices aren’t as a good as they are on other platforms. So, it’s a must to research your target audience before going for it. In case you choose Snapchat, remember that your ad should be a video. To run a one-month ad, you would need a budget of around \$1.000,00.
+
+{{< youtube vxIDPI423HM >}}
 

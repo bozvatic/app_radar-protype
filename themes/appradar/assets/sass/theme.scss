@@ -2,16 +2,25 @@
 @import 'layout/modules';
 @import 'shame';
 
-body {
-    margin: 0;
-    padding: 0;
+* {
     box-sizing: border-box;
 }
 
 html {
-    color: black;
+    color: #000000;
     font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";    
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+    color: #000000;
+}
+
 
 // Extra classes
 

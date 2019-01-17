@@ -1,0 +1,12 @@
+{{ partial "head.html" . }}
+
+{{ partial "nav.html" . }}
+
+<div role="main" class="legal-notice">
+        {{ with.Content }} 
+        {{.}} 
+        {{ end }}
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

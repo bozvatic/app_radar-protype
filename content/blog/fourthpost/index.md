@@ -17,7 +17,7 @@ During this time of the year, people search for holiday-related keywords ~~(seas
 Shopping apps are known to profit a lot from seasonal keywords. But even if you have a game, targeting long tail keywords such as _“holiday game for children”_ can still be a good idea. Think about the functionalities of your app and try to get creative.
 ___
 
-{{% blue-color %}}{{% text-align align="right" %}}## 2. Adapt your visuals to the Holiday season{{% /text-align %}}{{% /blue-color %}}
+{{% color %}}{{% text-align align="right" %}}## 2. Adapt your visuals to the Holiday season{{% /text-align %}}{{% /color %}}
 
 During this time of the year, people are usually feeling festive. Your store visuals can help you get some extra attention if they reflect that. You can add a temporary Christmas theme to your store listing as well as update your icon, screenshots or videos. It might be as simple as adding a few snowflakes & Christmas trees emojis to your app title.
 ___
