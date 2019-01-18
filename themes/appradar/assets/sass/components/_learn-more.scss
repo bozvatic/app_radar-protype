@@ -1,0 +1,16 @@
+.learn-more {
+    display: none;
+  }
+
+  @media only screen and (min-width: 1020px) {
+    .learn-more {
+        text-align: center;
+        display: inline-block;
+        position: absolute;
+        top: 80%;
+        left: 45%;
+      }
+      .learn-more a {
+        color: #5d657c;
+      }
+  }

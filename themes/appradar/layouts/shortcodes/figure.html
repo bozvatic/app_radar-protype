@@ -1,9 +1,21 @@
-{{- $title := .Get "title" }}
+{{- $title := .Get "title" | default false}}
 {{- $src := .Get "src" }}
-{{- $alt := .Get "alt" }}
+{{- $alt := .Get "alt" | default false}}
 
-
+<!--
 <figure>
     <img src="{{ $src }}" alt="{{ $alt }}">
-    <figcaption>{{ $title }}</figcaption>
+    <figcaption>{{ if isset .Params "title" }}
+        <h2>{{ .Get "title" }}</h2> 
+        {{else}}
+        <h2>{{ .Get "alt" }}</h2>
+        {{ end }}</figcaption>
+</figure>
+-->
+
+<figure>
+    <img src="{{ $src }}" {{- if $alt }} alt="{{ $alt }}"{{ end -}}>
+    {{- if $title }}
+        <figcaption>{{ $title }}</figcaption>
+    {{ end -}}
 </figure>

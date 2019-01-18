@@ -36,12 +36,15 @@ Internet users are video lovers, this is no secret. Over 8 billion videos are wa
 
 Your video can show up on Facebook, Instagram, Twitter, and YouTube. The short ads that appear on YouTube before a video is a cheap resource, and also pretty effective since you can decide what type of channels you want to show them and also how much you are willing to pay for each video placement.
 
-![mobile-phone-image](mobile-phone.jpg)
+![youtube on a mobile phone](mobile-phone.jpg)
 
-{{< figure src="calculating.jpg" title="Calculating my traffic" alt="alt text" >}}
+## User Acquisition with Video Ads
 
-![calculating-image](calculating.jpg)
+Internet users are video lovers, this is no secret. Over 8 billion videos are watched on Facebook every day. Thus, we are talking about an investment that brings you at least some return. Apart from that, the video is the perfect way to show how your app or game works. It’s a cool way to show its dynamics, graphics, and usefulness. Remember to make your videos short, visually attractive and to use subtitles.
 
+Your video can show up on Facebook, Instagram, Twitter, and YouTube. The short ads that appear on YouTube before a video is a cheap resource, and also pretty effective since you can decide what type of channels you want to show them and also how much you are willing to pay for each video placement.
+
+{{< figure src="calculating.jpg" title="Calculating the traffic on mobile phones" alt="Calculating the traffic" >}}
 
 
 ## User Acquisition with Social Media Advertising
@@ -58,6 +61,6 @@ Twitter Ads The best way to promote yourself on Twitter is by using a media card
 
 Snapchat Ads Even though many believed that Snapchat would succumb to Instagram Stories, it didn’t happen. It’s a social media really focused on young people, but the prices aren’t as a good as they are on other platforms. So, it’s a must to research your target audience before going for it. In case you choose Snapchat, remember that your ad should be a video. To run a one-month ad, you would need a budget of around \$1.000,00.
 
-![social-media-image](social-media.jpg)
+![social media image](social-media.jpg)
 
 
