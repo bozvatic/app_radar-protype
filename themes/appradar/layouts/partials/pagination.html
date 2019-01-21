@@ -1,0 +1,15 @@
+{{- if gt .TotalPages 1 }}
+	<nav class="pagination" role="navigation">
+		<div>
+			{{if .HasPrev}}
+				<a class="btn btn--default-raised" href="{{ .Prev.URL }}" title="Newer Posts"><i class="icon-left"></i></a>
+			{{end}}
+		</div>
+		<span class="page-number">Page {{ .PageNumber }} of {{.TotalPages}}</span>
+		<div>
+			{{if .HasNext}}
+				<a class="btn btn--default-raised" href="{{ .Next.URL }}" title="Older Posts"><i class="icon-right"></i></a>
+			{{end}}
+		</div>
+	</nav>
+{{ end -}}

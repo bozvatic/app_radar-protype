@@ -9,7 +9,7 @@
                 {{ $pageCount := 5 }}
                 {{ $pag := .Paginate .Pages $pageCount }}
                 {{ range  $index, $page := $pag.Pages }}
-       
+
                     <a href="{{ .URL }}" class="blog-card {{- if eq $index 3 }} featured reverse {{ end -}}">
                         <div class="blog-card__header">
                             {{ with .Params.image }}<img src="{{ . }}" id="blog-image"/>{{ end }}
@@ -34,5 +34,8 @@
                     </a>
                  {{ end }}
         </div>
+
+        {{ partial "pagination.html" $pag }}
+        
 </div>
 {{ partial "footer.html" . }}
