@@ -9,6 +9,7 @@ date: 2018-12-18
 menu: 'main'
 author: 'Maja'
 image: '/images/office.png'
+hidden: true
 ---
 
 Seeing that Christmas is the most consumption-intensive time of the year, you definitely should ensure that your app is ranked well in app stores. That way consumers can easily find your app as they are searching for that fun game or new media sharing app while cozying up fireside with their friends and family.
@@ -30,5 +31,3 @@ Holiday time is also perfect to spread the love among those users who already do
 ## 4. Make sure to submit your app & updates in time
 
 If your app is available in the Apple app store, you should ensure that all your releases are submitted, approved and scheduled before the annual holiday shutdown. This year the store is closed from Dec 23 to Dec 27. That means that you will be able to use the App Store Connect functionalities as usual, but any app updates and new apps will not go live.That is why you should also avoid scheduling any price changes or go-lives for your app during this period. Otherwise, your app will not even be available for users, meaning you will have completely missed the holiday app download rush!
-
-
