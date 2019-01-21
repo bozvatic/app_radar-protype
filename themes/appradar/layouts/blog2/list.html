@@ -2,9 +2,14 @@
 
 {{ partial "nav.html" . }}
 
+
 <div role="main" class="blog-wrapper">{{ with.Content }} {{.}} {{ end }}
         <div class="blog-cards">
-                {{ range  $index, $page := .Pages }}
+
+                {{ $pageCount := 5 }}
+                {{ $pag := .Paginate .Pages $pageCount }}
+                {{ range  $index, $page := $pag.Pages }}
+       
                     <a href="{{ .URL }}" class="blog-card {{- if eq $index 3 }} featured reverse {{ end -}}">
                         <div class="blog-card__header">
                             {{ with .Params.image }}<img src="{{ . }}" id="blog-image"/>{{ end }}
@@ -29,16 +34,5 @@
                     </a>
                  {{ end }}
         </div>
-
-        <nav class="pagination" role="navigation">
-            <div>
-                <!--<a class="btn btn--default" href="/blog/" title="Newer Posts"><i class="icon-left"></i></a>-->
-            </div>
-            <span class="page-number">Page 1 of 3</span>
-            <div>
-                <a class="btn btn--default" href="/blog2/" title="Older Posts"><i class="icon-right"></i></a>
-            </div>
-        </nav>
 </div>
-
 {{ partial "footer.html" . }}
