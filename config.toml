@@ -27,7 +27,7 @@ preserveTaxonomyNames = true
 [Params]
   debug = true
   dateFormat = "Jan. 2, 2006"
-  pageCount = 10
+  pageCount = 7
 
 
 [blackfriday]
