@@ -6,7 +6,7 @@
 <div role="main" class="blog-wrapper">{{ with.Content }} {{.}} {{ end }}
         <div class="blog-cards">
 
-                {{ $pageCount := 5 }}
+                {{ $pageCount := (.Params.pageCount | default .Site.Params.pageCount) }}
                 {{ $pag := .Paginate .Pages $pageCount }}
                 {{ range  $index, $page := $pag.Pages }}
 

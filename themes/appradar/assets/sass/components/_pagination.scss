@@ -6,6 +6,8 @@
     align-items: center;
     padding-top: 1rem;
     padding-bottom: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
     max-width: 1200px;
 }
 
@@ -69,4 +71,18 @@
 
 .icon-right:before {
     content: "\003e";
+}
+
+@media only screen and (min-width: 800px) {
+    .pagination {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .pagination {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
 }

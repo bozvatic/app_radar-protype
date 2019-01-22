@@ -2,13 +2,13 @@
 	<nav class="pagination" role="navigation">
 		<div>
 			{{if .HasPrev}}
-				<a class="btn btn--default-raised" href="{{ .Prev.URL }}" title="Newer Posts"><i class="icon-left"></i></a>
+				<a class="btn btn--default" href="{{ .Prev.URL }}" title="Newer Posts"><i class="icon-left"></i></a>
 			{{end}}
 		</div>
 		<span class="page-number">Page {{ .PageNumber }} of {{.TotalPages}}</span>
-		<div>
+		<div class="button-next">
 			{{if .HasNext}}
-				<a class="btn btn--default-raised" href="{{ .Next.URL }}" title="Older Posts"><i class="icon-right"></i></a>
+				<a class="btn btn--default" href="{{ .Next.URL }}" title="Older Posts"><i class="icon-right"></i></a>
 			{{end}}
 		</div>
 	</nav>
