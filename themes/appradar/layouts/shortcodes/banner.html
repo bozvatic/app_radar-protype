@@ -1,0 +1,31 @@
+{{- $headline := .Get "headline" }}
+{{- $subheadline := .Get "subheadline" | default false }}
+{{- $buttonText := .Get "buttonText" }}
+{{- $buttonLink := .Get "buttonLink" | default false }}
+
+
+{{- if $buttonLink }}
+    <a href="{{ $buttonLink }}" class="banner">
+{{ else }}
+    <div class="banner">
+{{ end -}}
+
+<div class="banner__inner">
+      <div class="banner__content">
+         <h2 class="banner__headline">{{ $headline }}</h2>
+         <p class="banner__subheadline">{{ $subheadline }}</p>
+      </div>
+      <div class="banner__button">
+         <div class="banner__button-text">{{ $buttonText }}</div>
+      </div>
+      <div class="banner__image">
+         <img class="bimage" srcset="/images/bitmap.png 1x" alt="Banner image">
+      </div>
+</div>
+
+
+{{- if $buttonLink }}
+    </a>
+{{ else }}
+    </div>
+{{ end -}}

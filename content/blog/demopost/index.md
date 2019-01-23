@@ -28,6 +28,7 @@ During this time of the year, people are usually feeling festive. Your store vis
 
 Holiday time is also perfect to spread the love among those users who already downloaded your app. You can treat them by adding a special promo code that unlock more functionalities of your app, offer discounts or special offers. The more personal the offer, the better. A great way to inform them about your holiday promotion is through in-app messages or push notifications. If you are not a fan of special offers, you can still connect with your users by simply wishing them happy holidays. Just remember that less is more when it comes to push notifications, so don’t overdo it.
 
+
 ## 4. Make sure to submit your app & updates in time
 
 If your app is available in the Apple app store, you should ensure that all your releases are submitted, approved and scheduled before the annual holiday shutdown. This year the store is closed from Dec 23 to Dec 27. That means that you will be able to use the App Store Connect functionalities as usual, but any app updates and new apps will not go live.That is why you should also avoid scheduling any price changes or go-lives for your app during this period. Otherwise, your app will not even be available for users, meaning you will have completely missed the holiday app download rush!

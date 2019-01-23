@@ -20,6 +20,7 @@ During this time of the year, people search for holiday-related keywords (season
 
 Shopping apps are known to profit a lot from seasonal keywords. But even if you have a game, targeting long tail keywords such as “holiday game for children” can still be a good idea. Think about the functionalities of your app and try to get creative.
 
+
 ## 2. Adapt your visuals to the Holiday season
 
 During this time of the year, people are usually feeling festive. Your store visuals can help you get some extra attention if they reflect that. You can add a temporary Christmas theme to your store listing as well as update your icon, screenshots or videos. It might be as simple as adding a few snowflakes & Christmas trees emojis to your app title.
@@ -27,6 +28,12 @@ During this time of the year, people are usually feeling festive. Your store vis
 ## 3. Special Offers & Notifications
 
 Holiday time is also perfect to spread the love among those users who already downloaded your app. You can treat them by adding a special promo code that unlock more functionalities of your app, offer discounts or special offers. The more personal the offer, the better. A great way to inform them about your holiday promotion is through in-app messages or push notifications. If you are not a fan of special offers, you can still connect with your users by simply wishing them happy holidays. Just remember that less is more when it comes to push notifications, so don’t overdo it.
+
+{{< banner
+     headline = "Ready to unleash your apps?"
+     subheadline = "The fastest way to grow your organic downloads."
+     buttonText = "Get more Downloads"
+     buttonLink = "/blog" >}}
 
 ## 4. Make sure to submit your app & updates in time
 
