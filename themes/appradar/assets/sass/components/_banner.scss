@@ -11,101 +11,132 @@
 
 .banner {
     text-decoration: none;
+}
 
-    .banner__inner {
-        max-width: 1200px;
-        border-radius: 5px;
-        padding: 10px;
-        margin: 0;
-        box-shadow: 0 16px 22px 0 #e0e5eb;
-        background-image: linear-gradient(265deg, #bf26fb, #7926fb 24%, #266bfb 74%, #3326fb);
-        text-decoration: none;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+.banner--flexfull {
+    flex: 0 0 100%;
+    margin-bottom: 2rem;
+}
 
-        .banner__headline {
-            font-size: 28px;
-            font-weight: bold;
-            color: #ffffff;
-            text-align: center;
-            }
-        .banner__subheadline {
-            opacity: 0.8;
-            text-align: center;
-            font-size: 15px;
-            font-weight: 500;
-            color: #ffffff;
-            margin-bottom: 2rem;
-        }
+.banner__inner {
+    max-width: 1200px;
+    border-radius: 5px;
+    margin: 0;
+    box-shadow: 0 16px 22px 0 #e0e5eb;
+    background-image: linear-gradient(265deg, #bf26fb, #7926fb 24%, #266bfb 74%, #3326fb);
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
-        .banner__button {
-            margin-bottom: 1rem;
-            width: auto;
-            border-radius: 4px;
-            box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
-            background-image: linear-gradient(to left, #16cb7f, #16cbb4);
+.banner__content {
+    margin-top: 1rem;
+}
+.banner__headline {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0;
+}
+.banner__subheadline {
+    opacity: 0.8;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 1.8rem;
+}
 
-            .banner__button-text {
-                padding-bottom: 1rem;
-                padding-top: 1rem;
-                padding-left: 1rem;
-                padding-right: 1rem;
-                text-align: center;
-                font-weight: 600;
-                color: #ffffff;
-            }
-        }
-      }
+.banner__button {
+    margin-bottom: 1rem;
+    width: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to left, #16cb7f, #16cbb4);
+}
+.banner__button-text {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.banner__image {
+    display: none;
 }
 
 @media only screen and (min-width: 620px) {
-    
+    .banner__inner {
+        align-items: center;
+    }
     .banner__content {
          flex: 0 0 50%;
+         margin-top: 0;
+         padding: 1rem;
+    }
+    .banner__headline {
+        margin-bottom: .5rem;
+        margin-top: .5rem;
+    }
+    .banner__subheadline {
+        margin-top: 0;
     }
     .banner__button {
-        flex: 0 0 50%;
-
-        .banner__button-text {
-            padding-left: 0;
-            padding-right: 0;
-        }
+         flex: 0 0 40%;
+         margin-bottom: 0;
+    }
+    .banner__button-text {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
 @media only screen and (min-width: 1100px) {
-    .banner {    
+    .banner { 
+          
     .banner__inner {
-        padding: 0 !important;
-        margin: 0 !important;
         display: flex;
         justify-content: space-between;
     }
     .banner__content {
-        flex-basis: 30%;
-
-        .banner__headline {
-            margin-top: .5rem;
-            margin-bottom: .5rem;
-        }
-        .banner__subheadline {
-            margin-top: 0;
-            margin-bottom: 0;
-        }
+        align-items: center;
+        flex-basis: 40%;
+        margin-top: 0;
+        padding: 0;
+    }
+    .banner__headline {
+        font-size: 25px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .banner__subheadline {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 0;
     }
     .banner__button {
-        flex-basis: 30%;
+        align-items: center;
+        flex-basis: 20%;
         margin-bottom: 0;
     }
     .banner__image {
+        align-items: center;
+        display: block;
         flex-basis: 30%;
-
-        .bimage {
-            margin: 0 !important;
-            padding: 0 !important;
-        }
+        margin: 0;
+        padding: 0;
     }
+    .bimage {
+        display: block;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
     }
+  }
 }

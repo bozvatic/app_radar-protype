@@ -1,11 +1,11 @@
 {{- $headline := .Get "headline" }}
 {{- $subheadline := .Get "subheadline" | default false }}
 {{- $buttonText := .Get "buttonText" }}
-{{- $buttonLink := .Get "buttonLink" | default false }}
+{{- $bannerLink := .Get "bannerLink" | default false }}
 
 
-{{- if $buttonLink }}
-    <a href="{{ $buttonLink }}" class="banner">
+{{- if $bannerLink }}
+    <a href="{{ $bannerLink }}" class="banner">
 {{ else }}
     <div class="banner">
 {{ end -}}
@@ -19,12 +19,14 @@
          <div class="banner__button-text">{{ $buttonText }}</div>
       </div>
       <div class="banner__image">
-         <img class="bimage" srcset="/images/bitmap.png 1x" alt="Banner image">
+         <img class="bimage" src="/images/bitmap.png"
+         srcset= "/images/bitmap.png,
+                 /images/bitmap@2x.png 2x,
+                /images/bitmap@3x.png 3x" 
+         alt= "Banner image">
       </div>
 </div>
-
-
-{{- if $buttonLink }}
+{{- if $bannerLink }}
     </a>
 {{ else }}
     </div>

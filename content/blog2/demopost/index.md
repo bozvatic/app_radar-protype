@@ -33,7 +33,7 @@ Holiday time is also perfect to spread the love among those users who already do
      headline = "Ready to unleash your apps?"
      subheadline = "The fastest way to grow your organic downloads."
      buttonText = "Get more Downloads"
-     buttonLink = "/blog" >}}
+     bannerLink = "/blog" >}}
 
 ## 4. Make sure to submit your app & updates in time
 
