@@ -1,0 +1,36 @@
+{{- if .Params.banner }}
+    {{- if .Params.bannerLink }}
+        <a href="{{ .Params.bannerlink }}" class="banner banner--flexfull">
+    {{ else }}
+        <div class="banner banner--flexfull">
+    {{ end -}}
+
+    <div class="banner__inner">
+        <div class="banner__content">
+           <h2 class="banner__headline">
+               {{ .Params.bannerHeadline }}
+           </h2>
+           <p class="banner__subheadline">
+               {{ .Params.bannerSubheadline }}
+           </p>
+        </div>
+        <div class="banner__button">
+           <div class="banner__button-text">
+               {{ .Params.bannerButton }}
+           </div>
+        </div>
+        <div class="banner__image">
+           <img class="bimage" src="/images/bitmap.png"
+           srcset= "/images/bitmap.png,
+                   /images/bitmap@2x.png 2x,
+                  /images/bitmap@3x.png 3x"
+           alt= "Banner image">
+        </div>
+    </div>
+
+    {{- if .Params.bannerLink }}
+        </a>
+    {{ else }}
+        </div>
+    {{ end -}}
+{{ end -}}

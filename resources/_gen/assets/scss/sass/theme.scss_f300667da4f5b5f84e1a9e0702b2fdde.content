@@ -413,15 +413,6 @@
     padding-right: 2rem;
     padding-left: 2rem; } }
 
-/*
-.banner {
-
-}
-
-.banner__inner {
-
-}
-*/
 .banner {
   text-decoration: none; }
 
