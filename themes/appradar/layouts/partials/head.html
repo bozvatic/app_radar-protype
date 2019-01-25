@@ -12,6 +12,7 @@
       {{ end -}}
 
       <!-- Site Title, Description, Author, and Favicon -->
+      
       {{- with .Params.headline | default .Title | default .Site.Title }}
         <title>{{ . | markdownify }}</title>
         <meta property="og:title" content="{{ . | markdownify }}" />

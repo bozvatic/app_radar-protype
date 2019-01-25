@@ -1,6 +1,6 @@
-{{- $headline := .Get "headline" }}
-{{- $subheadline := .Get "subheadline" | default false }}
-{{- $buttonText := .Get "buttonText" }}
+{{- $bannerHeadline := .Get "bannerHeadline" }}
+{{- $bannerSubheadline := .Get "bannerSubheadline" | default false }}
+{{- $bannerButton := .Get "bannerButton" }}
 {{- $bannerLink := .Get "bannerLink" | default false }}
 
 
@@ -12,11 +12,11 @@
 
 <div class="banner__inner">
       <div class="banner__content">
-         <h2 class="banner__headline">{{ $headline }}</h2>
-         <p class="banner__subheadline">{{ $subheadline }}</p>
+         <h2 class="banner__headline">{{ $bannerHeadline }}</h2>
+         <p class="banner__subheadline">{{ $bannerSubheadline }}</p>
       </div>
       <div class="banner__button">
-         <div class="banner__button-text">{{ $buttonText }}</div>
+         <div class="banner__button-text">{{ $bannerButton }}</div>
       </div>
       <div class="banner__image">
          <img class="bimage" src="/images/bitmap.png"

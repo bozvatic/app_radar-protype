@@ -30,10 +30,10 @@ During this time of the year, people are usually feeling festive. Your store vis
 Holiday time is also perfect to spread the love among those users who already downloaded your app. You can treat them by adding a special promo code that unlock more functionalities of your app, offer discounts or special offers. The more personal the offer, the better. A great way to inform them about your holiday promotion is through in-app messages or push notifications. If you are not a fan of special offers, you can still connect with your users by simply wishing them happy holidays. Just remember that less is more when it comes to push notifications, so don’t overdo it.
 
 {{< banner
-     headline = "Ready to unleash your apps?"
-     subheadline = "The fastest way to grow your organic downloads."
-     buttonText = "Get more Downloads"
-     bannerLink = "/blog" >}}
+     bannerHeadline = "Ready to unleash your apps?"
+     bannerSubheadline = "The fastest way to grow your organic downloads."
+     bannerButton = "Get more Downloads"
+     bannerLink = "/" >}}
 
 ## 4. Make sure to submit your app & updates in time
 
