@@ -5,23 +5,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 
       {{- with .Params.noindex }}
-        <meta name="robots" content="noindex, follow">
+        <meta name="robots" content="noindex, follow" />
       {{ end -}}
       {{- with .Params.nofollow }}
-        <meta name="robots" content="noindex, nofollow">
+        <meta name="robots" content="noindex, nofollow" />
       {{ end -}}
 
       <!-- Site Title, Description, Author, and Favicon -->
 
+      <link rel="icon" type="image/png" href="https://appradar.com/img/favicons/favicon-32x32.png" sizes="32x32">
+      <link rel="icon" type="image/png" href="https://appradar.com/img/favicons/favicon-16x16.png" sizes="16x16">
       {{- with .Params.headline | default .Title | default .Site.Title }}
         <title>{{ . | markdownify }}</title>
         <meta property="og:title" content="{{ . | markdownify }}" />
+        <meta property="og:description" content="{{ . | markdownify }}" />
+        <meta property="og:image" content="{{ . | markdownify }}" />
         <meta name="twitter:title" content="{{ . | markdownify | truncate 70 }}" />
       {{- end }}
+      
       {{- with .Params.description | default .Summary }}
-        <meta name="description" content="{{ . | markdownify }}">
-        <meta property="og:description" content="{{ . | markdownify }}">
-        <meta name="twitter:description" content="{{ . | markdownify | truncate 200 }}">
+        <meta name="description" content="{{ . | markdownify }}" />
+        <meta property="og:description" content="{{ . | markdownify }}" />
+        <meta name="twitter:description" content="{{ . | markdownify | truncate 200 }}" />
       {{- end }}
 
         {{ if fileExists "/themes/appradar" -}}

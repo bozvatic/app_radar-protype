@@ -1,5 +1,5 @@
 ---
-title: 'Main Landingpage'
+title: 'App Radar Main Landingpage'
 description: 'App radar main Landingpage - Prototype'
 date: '2018-10-05'
 menu: 'main'
@@ -24,17 +24,17 @@ author: 'Branislav'
 
     <div class="hero__icons">
       <div class="hero__icon">
-        <img src="logos/itranslate-0a132659f5.png" alt="itranslate" />
+        <img src="logos/itranslate-0a132659f5.png" alt="itranslate logo" />
       </div>
       <div class="hero__icon">
-        <img src="logos/nerbyte.svg" alt="nerbyte" />
+        <img src="logos/nerbyte.svg" alt="nerbyte logo" />
       </div>
-      <div class="hero__icon"><img src="logos/tivola.svg" alt="tivola" /></div>
+      <div class="hero__icon"><img src="logos/tivola.svg" alt="tivola logo" /></div>
       <div class="hero__icon">
-        <img src="logos/kolibri.svg" alt="kolibri" />
+        <img src="logos/kolibri.svg" alt="kolibri logo" />
       </div>
-      <div class="hero__icon"><img src="logos/yodo.svg" alt="yodo" /></div>
-      <div class="hero__icon"><img src="/logos/wsj.svg" alt="wsj" /></div>
+      <div class="hero__icon"><img src="logos/yodo.svg" alt="yodo logo" /></div>
+      <div class="hero__icon"><img src="/logos/wsj.svg" alt="wsj logo" /></div>
     </div>
   </div>
 </div>
@@ -59,7 +59,7 @@ author: 'Branislav'
           <img
             class="card__image"
             src="/images/01-guy-laptop@2x.png"
-          />
+          alt="guy with a laptop"/>
         </figure>
       </div>
       <div class="card__content">
@@ -86,7 +86,7 @@ author: 'Branislav'
           <img
             class="card__image"
             src="/images/02-guys-display@2x.png"
-          />
+          alt="guys display image" />
         </figure>
       </div>
       <div class="card__content">
@@ -113,7 +113,7 @@ author: 'Branislav'
           <img
             class="card__image"
             src="/images/03-publish@2x.png"
-          />
+          alt="publish image"/>
         </figure>
       </div>
       <div class="card__content">
@@ -136,16 +136,22 @@ author: 'Branislav'
     </div>
   </div>
 </div>
+
 <div class="panel">
   <div class="panel__inner">
+      {{< banner
+        bannerHeadline = "Ready to unleash your apps?"
+        bannerSubheadline = "The fastest way to grow your organic downloads."
+        bannerButton = "Get more Downloads"
+        bannerLink = "/blog" >}}
     <h1 class="panel__headline">Recommended by Industry Experts</h1>
     <div class="panel__subheadline">Top App Store Optimization Tool</div>
     <div class="panel__content panel__content--reverse">
       <div class="panel__content-item1">
-        <img src="logos/top-aso-tools.svg" alt="aso tools" />
+        <img src="logos/top-aso-tools.svg" alt="Top App Store Optimization Tools" />
       </div>
       <div class="panel__content-item2">
-        <img src="logos/featured.svg" alt="featured" />
+        <img src="logos/featured.svg" alt="Top App Store Optimization Tools" />
       </div>
       <div class="panel__content-item3">
         <a
@@ -156,7 +162,7 @@ author: 'Branislav'
           <img
             src="https://assets.capterra.com/badge/43dcd45294a9367e73a53ac6ba20086d.png?v=2107152&amp;p=152262"
             class="lazyload"
-          />
+           alt="Top App Store Optimization Tools"/>
         </a>
       </div>
     </div>
@@ -166,12 +172,12 @@ author: 'Branislav'
 <div class="panel">
   <div class="panel__inner">
     <div class="panel__headline">Placeholder for image-text slider</div>
+    {{< banner
+      bannerHeadline = "Ready to unleash your apps?"
+      bannerSubheadline = "The fastest way to grow your organic downloads."
+      bannerButton = "Get more Downloads"
+      bannerLink = "/blog" >}}
   </div>
-  {{< banner
-    headline = "Ready to unleash your apps?"
-    subheadline = "The fastest way to grow your organic downloads."
-    buttonText = "Get more Downloads"
-    bannerLink = "/blog" >}}
 </div>
 
 <div class="panel">
@@ -180,7 +186,7 @@ author: 'Branislav'
       <img
         class="laptop-image"
         src="/images/laptop-screen-with-aso-tool@2x.png"
-        alt="laptop"
+        alt="image of a laptop"
       />
     </div>
     <div class="textwrap">

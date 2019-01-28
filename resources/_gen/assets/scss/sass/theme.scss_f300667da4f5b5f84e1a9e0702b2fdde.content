@@ -616,7 +616,8 @@
   flex: 0 0 33.333%;
   background: white;
   margin-bottom: 2rem;
-  box-shadow: 0 15px 35px 0 rgba(50, 66, 93, 0.1); }
+  box-shadow: 0 15px 35px 0 rgba(50, 66, 93, 0.1);
+  border-radius: 8px; }
 
 #blog-image {
   border-top-left-radius: 4px;

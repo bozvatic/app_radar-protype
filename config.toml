@@ -3,7 +3,7 @@ defaultContentLanguageInSubdir = false
 DefaultContentLanguage = "en"
 
 baseurl = "/"
-title = "Some theme title"
+title = "Main landing page for App Radar"
 theme = ["appradar"]
 
 disableHugoGeneratorInject = true
@@ -15,13 +15,13 @@ preserveTaxonomyNames = true
     [Languages.en]
     weight = 1
     languageCode = "en-us"
-    title = "FALLBACK english title multi-language"
+    title = "ENGLISH title multi-language"
     dateFormat = "January 2, 2006"
 
     [Languages.de]
     weight = 1
     languageCode = "de-de"
-    title = "GERMAN Example site multi-language"
+    title = "GERMAN title multi-language"
     dateFormat = "2 January, 2006"
 
 [Params]
