@@ -28,6 +28,8 @@ preserveTaxonomyNames = true
   debug = true
   dateFormat = "Jan. 2, 2006"
   pageCount = 7
+  ogImage = "/images/someimg.jpg"
+  twitterImage = "/images/twitterImage.jpg"
 
 
 [blackfriday]

@@ -18,11 +18,14 @@
       {{- with .Params.headline | default .Title | default .Site.Title }}
         <title>{{ . | markdownify }}</title>
         <meta property="og:title" content="{{ . | markdownify }}" />
-        <meta property="og:description" content="{{ . | markdownify }}" />
-        <meta property="og:image" content="{{ . | markdownify }}" />
         <meta name="twitter:title" content="{{ . | markdownify | truncate 70 }}" />
       {{- end }}
-      
+      {{- with .Params.ogImage | default .Params.image | default .Site.Params.ogImage }}
+        <meta property="og:image" content="{{ . | absURL }}" />
+      {{- end }}
+      {{- with .Params.twitterImage | default .Params.image | default .Site.Params.twitterImage }}
+        <meta property="twitter:image" content="{{ . | absURL }}" />
+      {{- end }}
       {{- with .Params.description | default .Summary }}
         <meta name="description" content="{{ . | markdownify }}" />
         <meta property="og:description" content="{{ . | markdownify }}" />
