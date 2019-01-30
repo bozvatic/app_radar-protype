@@ -44,7 +44,6 @@
     border-radius: 4px;
     padding-left: 16px;
     padding-right: 16px;
-    display: inline-block; 
 }
 
 .login {
@@ -78,5 +77,8 @@
   .navigation__list li a {
         color: #303336;
         font-size: 1rem;
+      }
+  .login, .try-it {
+      display: none;
       }
   }

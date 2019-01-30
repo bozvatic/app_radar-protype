@@ -355,8 +355,7 @@
   text-align: center;
   border-radius: 4px;
   padding-left: 16px;
-  padding-right: 16px;
-  display: inline-block; }
+  padding-right: 16px; }
 
 .login {
   cursor: pointer;
@@ -384,7 +383,9 @@
     padding-right: 1rem; }
   .navigation__list li a {
     color: #303336;
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .login, .try-it {
+    display: none; } }
 
 @media only screen and (min-width: 1020px) {
   .icon-dropdown:before {
