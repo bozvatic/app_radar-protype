@@ -9,22 +9,54 @@
     text-align: center;
     padding-top: 2rem;
   }
-  .navigation__list.active {
-     left: 0;
+.navigation__list.active {
+    left: 0;
   }
-  .navigation__list li {
+.navigation__list li {
     padding: 15px 0;
   }
-  .navigation__list li a {
+.navigation__list li a {
     color: #ffff;
     font-size: 1.2rem;
   }
-  .mobilenav__button {
-      margin-top: 2rem;
+.mobilenav__button {
+    margin-top: 2rem;
   }
+
+  .try-it {
+    position: absolute;
+    top: 80%;
+    left: 43%;
+    color: #fff;
+    background-color: #008fff;
+    font-weight: 600;
+    background-image: linear-gradient(to bottom,#00c2ff,#008fff);
+    box-shadow: 0 1px 3px 0 rgba(0,92,255,.3), 0 4px 6px 0 rgba(50,50,93,.1);
+    cursor: pointer;
+    font-weight: 600;
+    height: 41px;
+    line-height: 39px;
+    font-size: 1rem;
+    max-width: 100%;
+    min-width: 50px;
+    letter-spacing: .01rem;
+    text-align: center;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: inline-block; 
+}
+
+.login {
+  cursor: pointer;
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  color: #fff;
+}
   
-  @media only screen and (min-width: 800px) {
-    .navigation__list {
+@media only screen and (min-width: 800px) {
+  .navigation__list {
         position: relative;
         background-color: transparent;
         top: 0;
@@ -32,18 +64,18 @@
         display: block;
         padding-top: 0;
       }
-      .navigation__list {
+  .navigation__list {
         height: 0;
         display: flex;
         margin: 0;
         transition: none;
       }
-      .navigation__list li {
+  .navigation__list li {
         padding: 0;
         list-style: none;
         padding-right: 1rem;
       }
-      .navigation__list li a {
+  .navigation__list li a {
         color: #303336;
         font-size: 1rem;
       }
