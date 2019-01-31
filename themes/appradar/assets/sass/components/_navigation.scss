@@ -2,50 +2,47 @@
     position: absolute;
     background-color: #000000;
     width: 100%;
-    height: calc(100vh - 50px);
     top: 50px;
     left: -100%;
     list-style-type: none;
     text-align: center;
     padding-top: 2rem;
-  }
+    height: calc(100vh - 50px);
+    transition: left .5s ease-in-out;
+}
 .navigation__list.active {
     left: 0;
-  }
+}
 .navigation__list li {
     padding: 15px 0;
-  }
+}
 .navigation__list li a {
-    color: #ffff;
+    color: #ffffff;
     font-size: 1.2rem;
-  }
+}
 .mobilenav__button {
     margin-top: 2rem;
-  }
-
-  .try-it {
+}
+.try-it {
     position: absolute;
     top: 80%;
     left: 43%;
-    color: #fff;
+    color: #ffffff;
     background-color: #008fff;
     font-weight: 600;
-    background-image: linear-gradient(to bottom,#00c2ff,#008fff);
-    box-shadow: 0 1px 3px 0 rgba(0,92,255,.3), 0 4px 6px 0 rgba(50,50,93,.1);
+    background-image: linear-gradient(to bottom, #00c2ff, #008fff);
+    box-shadow: 0 1px 3px 0 rgba(0, 92, 255, .3), 0 4px 6px 0 rgba(50, 50, 93, .1);
     cursor: pointer;
-    font-weight: 600;
-    height: 41px;
     line-height: 39px;
     font-size: 1rem;
     max-width: 100%;
     min-width: 50px;
-    letter-spacing: .01rem;
+    letter-spacing: .05rem;
     text-align: center;
     border-radius: 4px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
 .login {
   cursor: pointer;
   position: absolute;
@@ -55,30 +52,30 @@
 }
   
 @media only screen and (min-width: 800px) {
-  .navigation__list {
+.navigation__list {
         position: relative;
         background-color: transparent;
         top: 0;
         left: 0;
         display: block;
         padding-top: 0;
-      }
-  .navigation__list {
+  }
+.navigation__list {
         height: 0;
         display: flex;
         margin: 0;
         transition: none;
-      }
-  .navigation__list li {
+  }
+.navigation__list li {
         padding: 0;
         list-style: none;
         padding-right: 1rem;
-      }
-  .navigation__list li a {
+  }
+.navigation__list li a {
         color: #303336;
         font-size: 1rem;
-      }
-  .login, .try-it {
-      display: none;
-      }
   }
+.login, .try-it {
+      display: none;
+  }
+}

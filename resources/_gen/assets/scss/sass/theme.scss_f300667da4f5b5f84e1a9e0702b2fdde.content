@@ -315,12 +315,13 @@
   position: absolute;
   background-color: #000000;
   width: 100%;
-  height: calc(100vh - 50px);
   top: 50px;
   left: -100%;
   list-style-type: none;
   text-align: center;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  height: calc(100vh - 50px);
+  transition: left .5s ease-in-out; }
 
 .navigation__list.active {
   left: 0; }
@@ -329,7 +330,7 @@
   padding: 15px 0; }
 
 .navigation__list li a {
-  color: #ffff;
+  color: #ffffff;
   font-size: 1.2rem; }
 
 .mobilenav__button {
@@ -339,23 +340,21 @@
   position: absolute;
   top: 80%;
   left: 43%;
-  color: #fff;
+  color: #ffffff;
   background-color: #008fff;
   font-weight: 600;
   background-image: linear-gradient(to bottom, #00c2ff, #008fff);
   box-shadow: 0 1px 3px 0 rgba(0, 92, 255, 0.3), 0 4px 6px 0 rgba(50, 50, 93, 0.1);
   cursor: pointer;
-  font-weight: 600;
-  height: 41px;
   line-height: 39px;
   font-size: 1rem;
   max-width: 100%;
   min-width: 50px;
-  letter-spacing: .01rem;
+  letter-spacing: .05rem;
   text-align: center;
   border-radius: 4px;
-  padding-left: 16px;
-  padding-right: 16px; }
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .login {
   cursor: pointer;
